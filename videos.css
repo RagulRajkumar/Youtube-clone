@@ -1,0 +1,144 @@
+html , body {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+.doc-main{
+    display: flex;
+    flex-flow: row;
+    padding-top: 70px;
+    width: 100%;
+}
+.doc-main-left{
+    margin-right: 30%;
+     width: 70%;
+     background-color: #181818;
+}
+.cont{
+    padding-left: 10%;
+    width: 89%;
+    padding: 20px 20px 20px 10px;
+   
+}
+
+.doc-main-left-btm-card-1{
+    width: 100%;
+    height: 60px;
+    justify-content: left ;
+}
+.doc-main-card-btm-ri8-cont{
+    text-align: left;
+}
+.hr-line{
+    width: 100%;
+    border-color: #808080;
+}
+
+.doc-main-right{
+    position: fixed;
+     height: 90%;
+     overflow-y: hidden;
+     background-color: #181818;
+     width:30%;
+     margin-left: 70%;
+     padding: 20px;
+}
+.doc-main-right:hover{
+    overflow-y: scroll;
+}
+.card-cont{
+    display: flex;
+    padding-bottom: 10px;
+}
+.card-cont-left{
+    width: 40%;
+    height: 75px;
+}
+.card-thumbnail{
+    width: 100%;
+    height: 75px;
+}
+.card-cont-ri8{
+    width: 40%;
+    height: 75px;
+    padding-left: 10px;
+}
+.doc-main-card-btm-ri8-cont{
+    margin: 5px;
+    width: 50%;
+}
+.doc-main-left-btm-card-1{
+    width: 100%;
+    height: 100px;
+    justify-content: left ;
+}
+.doc-main-left-btm-card-2{
+    width: 100%;
+    height: 100px;
+    justify-content: left ;
+}
+.ri8{
+    display: flex;
+}
+.left{
+    width: 20%;
+    padding-left: 70%;
+    padding-bottom: 30px;
+}
+button{
+    color:#ffffff;
+    background-color: red;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+.doc-main-left-bottom{
+    height: 100%;
+}
+@media screen and (max-width:870px){
+    .nav-search-container{
+        display: none;
+    }
+    .nav-search-root-container{
+        justify-content: flex-end;
+    }
+    .nav-right-cont{
+        width: 10%;
+    }
+    .doc-main{
+        flex-direction: column;
+    }
+    .doc-main-left{
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .doc-main-right{
+        width: 90%;
+        position: inherit;
+        margin-left: 0;
+        padding: 5%;
+        overflow-y: hidden;
+    }
+    .cont{
+        width: 90%;
+        padding: 20px 5%;
+    }
+    .doc-main-left-btm-card-2{
+        display: none;
+    }
+    .card-cont{
+        padding: 20px;
+    }
+    .card-thumbnail{
+        height: 120px;
+    }
+    .card-cont-left{
+        height: 120px;
+    }
+    .card-cont-ri8{
+        width: 60%;
+    }
+}
